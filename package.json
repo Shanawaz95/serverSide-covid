@@ -1,0 +1,28 @@
+{
+  "name": "covid-server",
+  "version": "1.0.0",
+  "description": "Application to track covid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shanawaz95/serverSide-covid.git"
+  },
+  "author": "Shanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shanawaz95/serverSide-covid/issues"
+  },
+  "homepage": "https://github.com/Shanawaz95/serverSide-covid#readme",
+  "dependencies": {
+    "apollo-server": "^2.23.0",
+    "bcryptjs": "^2.4.3",
+    "csvtojson": "^2.0.10",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.4"
+  }
+}
