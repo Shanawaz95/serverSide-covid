@@ -5,8 +5,8 @@ const mongoose = require("mongoose");
 
 const covidData = require("./models/CovidData");
 
-const typeDefs = require("./graphql/typeDefs");
-const resolvers = require("./graphql/resolvers/");
+const typeDefs = require("./GQL/typeDefs");
+const resolvers = require("./GQL/resolvers");
 
 const PORT = process.env.PORT || 5000;
 

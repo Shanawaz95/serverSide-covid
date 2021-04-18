@@ -1,5 +1,5 @@
 const covidData = require("../../models/CovidData");
-const moment = require("moment"); // require
+// const moment = require("moment"); // require
 
 module.exports = {
   Query: {
