@@ -43,7 +43,7 @@ async function dumpData() {
         await covidData
           .insertMany(data)
           .then(() => {
-            console.log(`inserted from raw_data${i}`);
+            // console.log(`inserted from raw_data${i}`);
           })
           .catch((err) => {
             console.log(err);
@@ -75,7 +75,7 @@ async function dumpData() {
             if (err) {
               console.log(err);
             } else {
-              console.log(`updated fields on raw_data${i}`);
+              //   console.log(`updated fields on raw_data${i}`);
             }
           }
         );
